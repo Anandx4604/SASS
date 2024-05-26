@@ -1,0 +1,141 @@
+@import './_resets';
+@import './_variables';
+@import './_productList';
+@import './_purchaseProducts';
+@import './_balance';
+@import './_logout';
+@import './cart';
+@import './contact';
+
+@function weight($weight-name) {
+    @return map-get($font-weights , $weight-name )
+}
+
+body {
+    background-color: white;
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: $direction;
+}
+.account{
+    float: right;
+}
+
+.logout-btn{
+    padding: 5%;
+    background-color: $header-color;
+    border: none;
+    border-style: none;
+    border-width: 0;
+    // padding-top: 10%;
+    float: right;
+    margin-right: 23%;
+    
+}
+
+.__menu {
+    @include flexCenter(row);
+    font-weight: weight(bold);
+    font-size: x-large;
+    text-decoration: none;
+    padding: 1.2rem;
+    background-color: $header-color;
+
+
+    & .home {
+        padding-left: 3rem;
+    }
+
+    & li {
+        list-style: none;
+    }
+
+    & li :hover {
+        color: #4b2d3e;
+    }
+}
+
+.shop-details {
+    margin-top: 4%;
+    padding: 50px;
+
+    & .shop-title h1{
+        text-align: center;
+    }
+}
+
+.shop-items{
+    
+    margin: 0px auto;
+    width: 70%;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .items-row1{
+    display: flex;
+}
+
+    & .items-row2{
+        display: flex;
+}
+    
+}
+
+
+figcaption {
+    font-size:small;
+    padding: 20px;
+    // text-align:center;
+}
+
+figure{
+    border-color: black;
+    border-style: solid;
+    border-width: 0.2rem;
+    margin-left: 1rem;
+    // line-height: 0.5px;
+}
+
+.item1{
+    padding-left: 5%;
+    padding-top: 40px;
+}
+
+.item2{
+    padding-left: 5%;
+    padding-top: 40px;
+    // text-align: center;
+}
+
+.about-us{
+    & .about-us-title{
+    text-align: center;
+}
+
+    & .about-us-content{
+        font-size: x-large;
+        text-align: center;
+        margin-left: 10%;
+        margin-right:10%
+    }
+
+  }
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    // position: fixed;
+}
+
+// .shop-item{
+//     @extend .shop-items;
+// }
+
+
+

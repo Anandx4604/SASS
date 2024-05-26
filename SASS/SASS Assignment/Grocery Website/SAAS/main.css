@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.product-list {
+  align-self: auto;
+  margin-left: 50px;
+  padding-top: 5px;
+  float: left;
+  width: 100%;
+}
+.product-list table {
+  position: absolute;
+  left: 7%;
+  top: 90px;
+  width: 40%;
+  height: 200px;
+  background-color: lightskyblue;
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+th {
+  background-color: blueviolet;
+}
+
+td {
+  padding: 5px;
+}
+
+.productformcontent {
+  float: left;
+  margin-left: 100px;
+  background-color: lightgreen;
+  width: 250px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 60px;
+  padding-left: 15px;
+  margin-left: 60%;
+  padding: 20px;
+}
+
+#form {
+  padding-left: 25px;
+}
+
+.shop-item {
+  margin: 0px auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.shop-item .item-row1 {
+  display: flex;
+}
+.shop-item .item-row2 {
+  display: flex;
+}
+
+figcaption {
+  font-size: xx-large;
+  color: darkblue;
+  padding: 20px;
+}
+
+figure {
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2rem;
+  margin-left: 1rem;
+}
+
+.items1 {
+  padding-left: 7%;
+}
+
+.items2 {
+  padding-left: 7%;
+}
+
+.items3 {
+  padding-left: 5%;
+}
+
+.items4 {
+  padding-left: 7%;
+}
+
+.buynow-btn {
+  padding: 3%;
+  background-color: #9bb935;
+  border: none;
+  border-style: none;
+  border-width: 0;
+  margin-left: 30px;
+}
+
+.addcart-btn {
+  padding: 3%;
+  background-color: #9bb935;
+  border: none;
+  border-style: none;
+  border-width: 0;
+  margin-left: 100px;
+}
+
+#buttons {
+  display: flex;
+}
+
+.recharge-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+.balance-check {
+  text-align: center;
+  font-size: xx-large;
+}
+
+#Submit-btn {
+  margin-left: 50px;
+}
+
+.logout-yes {
+  padding: 2%;
+  background-color: #9bb935;
+  border: none;
+  border-style: none;
+  border-width: 0;
+  margin-left: 50%;
+}
+
+.logout-option {
+  text-align: center;
+  font-size: x-large;
+}
+
+.logout-options {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-no {
+  padding: 2%;
+  background-color: red;
+  border: none;
+  border-style: none;
+  border-width: 0;
+  margin-right: 10%;
+}
+
+#cart-table {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  width: 40%;
+  height: 200px;
+  background-color: lightskyblue;
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.contact-form {
+  display: grid;
+  padding: 20px;
+  margin-left: 37%;
+  /* margin-right: 50%; */
+  background-color: white;
+  /* color: darkorange; */
+  width: 300px;
+  margin: 5vh auto 0 auto;
+  background-color: lightcyan;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+body {
+  background-color: white;
+}
+
+.account {
+  float: right;
+}
+
+.logout-btn {
+  padding: 5%;
+  background-color: #9bb935;
+  border: none;
+  border-style: none;
+  border-width: 0;
+  float: right;
+  margin-right: 23%;
+}
+
+.__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 900;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 1.2rem;
+  background-color: #9bb935;
+}
+.__menu .home {
+  padding-left: 3rem;
+}
+.__menu li {
+  list-style: none;
+}
+.__menu li :hover {
+  color: #4b2d3e;
+}
+
+.shop-details {
+  margin-top: 4%;
+  padding: 50px;
+}
+.shop-details .shop-title h1 {
+  text-align: center;
+}
+
+.shop-items {
+  margin: 0px auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+.shop-items .items-row1 {
+  display: flex;
+}
+.shop-items .items-row2 {
+  display: flex;
+}
+
+figcaption {
+  font-size: small;
+  padding: 20px;
+}
+
+figure {
+  border-color: black;
+  border-style: solid;
+  border-width: 0.2rem;
+  margin-left: 1rem;
+}
+
+.item1 {
+  padding-left: 5%;
+  padding-top: 40px;
+}
+
+.item2 {
+  padding-left: 5%;
+  padding-top: 40px;
+}
+
+.about-us .about-us-title {
+  text-align: center;
+}
+.about-us .about-us-content {
+  font-size: x-large;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

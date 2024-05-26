@@ -1,0 +1,36 @@
+.logout-yes{
+
+        padding: 2%;
+        background-color: $header-color;
+        border: none;
+        border-style: none;
+        border-width: 0;
+        // padding-top: 10%;
+        // float: right;
+        margin-left: 50%;
+        
+
+}
+.logout-option{
+    text-align: center;
+    font-size: x-large;
+}
+
+.logout-options{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-no{
+    padding: 2%;
+    background-color: red;
+    border: none;
+    border-style: none;
+    border-width: 0;
+    // padding-top: 10%;
+    // float: right;
+    margin-right: 10%;
+    
+}

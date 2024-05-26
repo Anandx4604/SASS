@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.product-list {
+    align-self: auto;
+    margin-left: 50px;
+    padding-top: 5px;
+    float: left;
+    width: 100%;
+
+    table {
+        position: absolute;
+        left: 7%;
+        top: 90px;
+        width: 40%;
+        height: 200px;
+        background-color: lightskyblue;
+        text-align: center;
+        border-collapse: collapse;
+        border: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+}
+
+th {
+    background-color: blueviolet;
+}
+
+td {
+    padding: 5px;
+}
+
+.productformcontent {
+    float: left;
+    margin-left: 100px;
+    background-color: lightgreen;
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 60px;
+    padding-left: 15px;
+    margin-left: 60%;
+    padding: 20px;
+
+
+}
+
+#form{
+    padding-left: 25px;
+}
